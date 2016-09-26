@@ -1,4 +1,3 @@
-import 'keycloak-js';
 import { Injectable } from '@angular/core';
 
 @Injectable()

@@ -8,7 +8,8 @@
     "experimentalDecorators": true,
     "removeComments": true,
     "declaration": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "./lib"
   },
   "files": [
       "./index.ts",

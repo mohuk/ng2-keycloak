@@ -1,4 +1,3 @@
-import 'keycloak-js';
 export declare class KeycloakService {
     static auth: any;
     static init(): Promise<any>;
