@@ -1,6 +1,6 @@
 {
   "name": "ng2-keycloak",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Keycloak bindings for Angular2",
   "main": "index.js",
   "scripts": {
