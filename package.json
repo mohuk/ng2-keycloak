@@ -1,15 +1,15 @@
 {
-  "name": "angular2-keycloak",
+  "name": "ng2-keycloak",
   "version": "0.0.2",
   "description": "Keycloak bindings for Angular2",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "prepublish": "rimraf ./lib && ngc -p ./tsconfig.json"
+    "prepublish": "ngc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohuk/angular2-keycloak.git"
+    "url": "git+https://github.com/mohuk/ng2-keycloak.git"
   },
   "keywords": [
     "Angular2",
@@ -18,13 +18,12 @@
   "author": "Mohammad Umair Khan <mohammad.umair.k@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mohuk/angular2-keycloak/issues"
+    "url": "https://github.com/mohuk/ng2-keycloak/issues"
   },
-  "homepage": "https://github.com/mohuk/angular2-keycloak#readme",
+  "homepage": "https://github.com/mohuk/ng2-keycloak#readme",
   "devDependencies": {
     "@angular/compiler": "^2.0.1",
     "@angular/compiler-cli": "^0.6.3",
-    "rimraf": "^2.5.4",
     "typescript": "^2.0.3"
   },
   "peerDependencies": {
