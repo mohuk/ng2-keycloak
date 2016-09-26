@@ -8,11 +8,10 @@
     "experimentalDecorators": true,
     "removeComments": true,
     "declaration": true,
-    "noImplicitAny": false,
-    "outDir": "./lib"
+    "noImplicitAny": false
   },
   "files": [
-      "./src/index.ts",
+      "./index.ts",
       "./types/keycloak.d.ts"
   ],
   "angularCompilerOptions": {

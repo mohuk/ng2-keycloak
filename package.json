@@ -2,7 +2,7 @@
   "name": "angular2-keycloak",
   "version": "0.0.0",
   "description": "Keycloak bindings for Angular2",
-  "main": "./lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm run test",
     "prepublish": "rimraf ./lib && ngc -p ./tsconfig.json"
