@@ -9,10 +9,7 @@
     "removeComments": true,
     "declaration": true,
     "noImplicitAny": false,
-    "outDir": "./lib",
-    "typeRoots": [
-        "./types"
-    ]
+    "outDir": "./lib"
   },
   "files": [
       "./index.ts",

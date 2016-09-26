@@ -1,2 +1,1 @@
-import 'keycloak-js';
-import { KeycloakModule } from './src/main';
+export * from './src/main';

@@ -1,1 +1,1 @@
-import 'keycloak-js';
+export * from './src/main';
