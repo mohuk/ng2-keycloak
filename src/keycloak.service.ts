@@ -4,11 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class KeycloakService {
 
-static auth: {
-    loggedIn: boolean,
-    authz: KeycloakModule.IKeycloak,
-    logoutUrl: string
-};
+static auth: any = {};
 
   static init(): Promise<any> {
     let keycloakAuth = new Keycloak('keycloak.json');
@@ -22,9 +18,7 @@ static auth: {
             KeycloakService.auth.logoutUrl = `${keycloakAuth.authServerUrl}/realms/demo/protocol/openid-connect/logout?redirect_uri=/angular2-product/index.html`;
             resolve();
           })
-          .error(() => {
-            reject();
-          });
+          .error(reject);
       });
     }
 

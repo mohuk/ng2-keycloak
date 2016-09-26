@@ -12,7 +12,7 @@
     "outDir": "./lib"
   },
   "files": [
-      "./index.ts",
+      "./src/index.ts",
       "./types/keycloak.d.ts"
   ],
   "angularCompilerOptions": {
