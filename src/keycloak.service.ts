@@ -13,7 +13,7 @@ static init(config: any): Promise<any> {
       .success(() => {
         KeycloakService.auth.loggedIn = true;
         KeycloakService.auth.authz = keycloakAuth;
-        KeycloakService.auth.logoutUrl = `${keycloakAuth.authServerUrl}/realms/${keycloakAuth.realm}/protocol/openid-connect/logout`;
+        KeycloakService.auth.logoutUrl = `${keycloakAuth.authServerUrl}/realms/${keycloakAuth.realm}/protocol/openid-connect/logout?redirect_uri=/`;
         resolve();
       })
       .error(reject);
